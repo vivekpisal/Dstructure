@@ -1,6 +1,6 @@
-# Dstructure
+# dstructure
 
-Dstructure is a Python library for dealing with data struture and algorithms.
+dstructure is a Python library for dealing with data struture and algorithms.
 
 ## Installation
 
