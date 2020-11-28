@@ -105,7 +105,3 @@ class HashMap:
 
 	def print(self):
 		print(self.map)
-
-
-
-
