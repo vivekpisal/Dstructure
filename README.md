@@ -2,6 +2,8 @@
 
 dstructure is a Python library for dealing with data struture and algorithms.
 
+![alt text](Dstructure.png)
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dstructure.
