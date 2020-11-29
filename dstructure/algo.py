@@ -147,3 +147,40 @@ def prime_factors(no)->list:
 		no=no//prime[no]
 	return factors
 
+
+
+def repeated_elements(arr)->dict:
+	"""
+	Return the dictionary of the elements with it's count.
+	"""
+	dic={}
+	for i in arr:
+		try:
+			if dic[i]:
+				dic[i]+=1
+		except:
+			dic[i]=1 
+	return dic 
+
+
+def common_elements(arr,arr1)->list:
+	"""
+	Return the list of common elements between two arrays.
+	"""
+	dic={}
+	for i in arr:
+		try:
+			if dic[i]:
+				dic[i]+=1
+		except:
+			dic[i]=1
+	common=[]
+	for i in arr1:
+		try:
+			if dic[i]:
+				common.append(i)
+		except:
+			pass
+	return common
+
+print(common_elements([1,2,3,4,5],[5,4,1,10]))
