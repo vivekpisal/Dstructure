@@ -1,6 +1,6 @@
-def merge2list(first,second):
+def merge2list(first,second)->list:
 	"""
-	Merge Two Sorted List.
+	Return the Merge Two Sorted List.
 	"""
 	i=0
 	j=0
@@ -24,7 +24,7 @@ def merge2list(first,second):
 
 
 
-def binarysearch(arr,ser):
+def binarysearch(arr,ser)->int:
 	"""
 	Binary Search In Sorted Array
 	"""
@@ -43,7 +43,7 @@ def binarysearch(arr,ser):
 
 
 
-def rotateright(arr,k):
+def rotateright(arr,k)->list:
 	"""
 	Rotate the array right side k number of times.
 	"""
@@ -61,7 +61,7 @@ def rotateright(arr,k):
 
 
 
-def rotateleft(arr,k):
+def rotateleft(arr,k)->list:
 	"""
 	Rotate the array left side k number of times.
 	"""
@@ -163,6 +163,7 @@ def repeated_elements(arr)->dict:
 	return dic 
 
 
+
 def common_elements(arr,arr1)->list:
 	"""
 	Return the list of common elements between two arrays.
@@ -183,4 +184,3 @@ def common_elements(arr,arr1)->list:
 			pass
 	return common
 
-print(common_elements([1,2,3,4,5],[5,4,1,10]))
