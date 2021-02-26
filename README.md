@@ -148,6 +148,35 @@ obj.ascii_search(30) # search 30 in hashmap by adding ascii values of all charac
 obj.print() # print hashmap
 ```
 
+### 8.MinHeap
+
+A Min-Heap is a complete binary tree in which the value in each internal node is smaller than or equal to the values in the children of that node. Mapping the elements of a heap into an array is trivial: if a node is stored a index k, then its left child is stored at index 2k + 1 and its right child at index 2k + 2.
+
+
+```python
+from dstructure.MinHeap import MinHeap
+obj=MinHeap([5,4,1,3,2]) #Create the object of heap and pass the array. 
+obj.make_heap() # This function make the heap
+top = obj.top() # This function return the min element which on the top.
+obj.push(30) # insert the element into heap.
+obj.pop() # pop function delete the first element from heap.
+print(obj) # print heap
+```
+
+### 9.MaxHeap
+
+A max-heap is a complete binary tree in which the value in each internal node is greater than or equal to the values in the children of that node. Mapping the elements of a heap into an array is trivial: if a node is stored an index k, then its left child is stored at index 2k+1 and its right child at index 2k+2.
+
+```python
+from dstructure.MinHeap import MinHeap
+obj=MinHeap([5,4,1,3,2]) #Create the object of heap and pass the array. 
+obj.make_heap() # This function make the heap
+top = obj.top() # This function return the max element which on the top.
+obj.push(30) # insert the element into heap.
+obj.pop() # pop function delete the first element from heap.
+print(obj) # print heap
+```
+
 
 
 ## Contributing
